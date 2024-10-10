@@ -1,0 +1,64 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.p-1 {
+    padding: 0.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.bg-blue-500 {
+    background-color: #3B82F6;
+}
+
+.bg-yellow-500 {
+    background-color: #F59E0B;
+}
+
+.bg-red-500 {
+    background-color: #EF4444;
+}
+
+.bg-green-500 {
+    background-color: #10B981;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}

@@ -1,6 +1,6 @@
 <template>
-    <div v-if="isVisible" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-        <div class="bg-white p-6 rounded-lg shadow-lg w-1/3">
+    <div v-if="isVisible" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-full sm:w-1/2 lg:w-1/3">
             <h2 class="text-xl font-bold mb-4">
                 {{ isEditMode ? 'Edit Task' : 'Add New Task' }}
             </h2>
@@ -26,7 +26,9 @@
         </div>
     </div>
 </template>
+
 <script src="./Modal"></script>
+
 <style>
 @import './Modal.css';
 </style>
